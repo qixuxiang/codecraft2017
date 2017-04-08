@@ -144,20 +144,6 @@ int main(int argc, char **argv)
 
     }
     cout<<"maxflow of 1 and Nodenum + Consumernum+2 is: "<<G.ans(1,Nodenum + Consumernum+2)<<endl;
-
-    /*
-    int m,n,u,v,w;//m是边数目，n是点数目，u是起点，v是终点，w是流量
-
-	while(cin>>m>>n)
-	{
-		G.init(n);
-		while(m--)
-		{
-			cin>>u>>v>>w;
-			G.add(u,v,w);
-		}
-		cout<<G.ans(1,n)<<endl;
-	}
     */
 	return 0;
 }
